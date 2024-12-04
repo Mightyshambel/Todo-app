@@ -1,0 +1,29 @@
+.header {
+    background-color: #3556AB;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-image {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image round */
+    margin-right: 10px;
+  }
+  
+  .plans-text {
+    font-size: 1.25rem; /* Adjust size as needed */
+    font-weight: bold;
+  }
+  
+
+
+ 

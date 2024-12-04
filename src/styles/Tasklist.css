@@ -1,0 +1,115 @@
+
+.task-list-wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  width: 40%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+}
+
+.user-header {
+  margin-bottom: 20px;
+}
+
+.user-header h3 {
+  margin: 0;
+}
+
+.user-header p {
+  margin: 0;
+  color: #666;
+}
+
+.edit-task-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-task-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-task-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.save-task-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.delete-task-btn:hover {
+  background-color: #b02a37;
+}
+
+.save-task-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.right-panel {
+    width: 60%;
+    padding: 20px;
+    background-color: #fff;
+    transition: all 0.3s ease; /* Smooth transition for any changes */
+    transform: translateX(100%); /* Start offscreen */
+    opacity: 0; /* Start invisible */
+    pointer-events: none; /* No interaction when invisible */
+  }
+  
+  .right-panel.active {
+    transform: translateX(0); /* Move into view */
+    opacity: 1; /* Make fully visible */
+    pointer-events: auto; /* Allow interactions */
+  }
+
+  .new-task-input {
+    width: calc(100% - 22px); /* Adjust width accounting for padding */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Space between input and button */
+  }
+  
+  .add-task-btn {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #007bff; /* Blue to match the edit button */
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-task-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Ensure consistent spacing and alignment */
+  .left-panel {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+  }
+  

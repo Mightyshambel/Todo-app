@@ -1,0 +1,12 @@
+.upgrade-btn {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #9EB031;
+    color: black;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+  
