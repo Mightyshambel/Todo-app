@@ -24,8 +24,8 @@ Todo is a modern, responsive todo application built with React and Tailwind CSS,
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/mighty-shambel/todo.git
-cd taskmaster-todo
+git clone https://github.com/mighty-shambel/todo-app.git
+cd todo-app
 ```
 
 ### 2. Install Dependencies
